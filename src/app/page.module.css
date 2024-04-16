@@ -1,0 +1,155 @@
+.main{
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 40px 24px;
+  border-radius: 8px;
+  background: #FDB918;
+  justify-content: space-around;
+}
+
+.left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.logo p{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sale{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.sale b{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right h2{
+  font-size: 21px;
+  color: #282828;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.right{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+
+  width: fit-content;
+  border: 2px solid #282828;
+  padding: 10px 0;
+  border-radius: 8px;
+
+}
+
+.saleText{
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.buttonContainer{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.button{
+  padding: 0 24px;
+  background: #F8F7F5;
+  height: 42px;
+  border-radius: 8px;
+  border: 0;
+  font-size: 18px;
+  cursor: pointer;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #282828;
+}
+
+.infoUser h2{
+  font-size: 34px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.infoUser label + input{
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+
+.resultPrice{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.resultPrice b{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.resultPrice b p{
+  font-weight: 400;
+}
+
+.resultPrice b + b{
+  margin-top: 8px;
+}
+
+.cheackName{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cheackProduct{
+  margin: 20px 0;
+  border-top: 1px solid #282828;
+  border-bottom: 1px solid #282828;
+}
+
+.cheackProduct *{
+  padding: 10px;
+}
+
+.logoMin{
+  width: 95%;
+}

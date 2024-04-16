@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox{
+    width: 400px;
+}
+
+.price{
+    width: 100px;
+}
+
+.row + .row{
+    border-top: 1px solid #282828;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tableName{
+    font-weight: 600;
+}
